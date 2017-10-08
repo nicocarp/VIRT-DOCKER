@@ -1,12 +1,22 @@
 version: '2'
 services:
-  web:
-    build: ./web 
-    command: python main.py
-    ports:
-      - 5000:5000
-    env_file:
-      - .env
-    volumes:
-      - ./web:/code
 
+  db:
+    image: postgres
+    volumes:
+        - ./volumen_db:/var/lib/postgresql/data
+  notebook:
+    build: . 
+    expose:
+      - "8888"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./codigo:/code
+    depends_on:
+      - db    
+    environment:
+      - USUARIO_DB=postgres
+      - PASSWORD_DB=postgres
+      - HOST_DB=db
+      - PORT_DB=5432

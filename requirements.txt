@@ -1,0 +1,12 @@
+numpy==1.12.1
+scipy
+matplotlib==2.0.0
+jupyter
+sqlalchemy==1.1.13
+psycopg2
+pandas==0.20.3
+tweepy==3.5.0
+PrettyTable==0.7.2
+bokeh==0.12.7
+sklearn
+pillow==4.3.0
