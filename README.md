@@ -1,6 +1,8 @@
 ## Trabajo Final Curso virtualizacion con Docker. EIP 2017 ##
 
-# Para ejecutar modo desarrollo #
+Usando docker para desarrollar trabajos practicos DSS 2017
+
+# Para ejecutar #
 
 La primera vez;
 
