@@ -2,6 +2,10 @@
 
 Usando docker para desarrollar trabajos practicos DSS 2017
 
+Alumnos
+  - Abitu, Victor
+  - Calfuquir, Jorge Nicolas
+
 # Para ejecutar #
 
 La primera vez;
